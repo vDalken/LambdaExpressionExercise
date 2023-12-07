@@ -5,6 +5,7 @@ public class Main{
     public static void main(String[] args){
         Operation multiplication = (a,b) -> a*b;
         System.out.println(Calculator.executeOperation(2,7,multiplication));
+
         Filter filter = ((string) -> string.length()<5);
         Filterer filterer = new Filterer();
         List<String> listWithStrings = new LinkedList<>(List.of("gogogogo","letsaeee","maravilha","rito"));
